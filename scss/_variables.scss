@@ -1,0 +1,47 @@
+/*
+    색상 정의
+*/
+
+$black: #1d1d1b;
+$black-200: #222222;
+$white: #ffffff;
+$blue: #0068b7;
+$red: #c52d27;
+$gray-900: #999999;
+$gray-800: #888888;
+$gray-600: #666666;
+$gray-500: #dddddd;
+$gray-400: #444444;
+$gray-300: #f7f7f7;
+
+$colors: ();
+$colors: map-merge(
+  (
+    "black": $black,
+    "black-200": $black-200,
+    "white": $white,
+    "blue": $blue,
+    "red": $red,
+    "gray-900": $gray-900,
+    "gray-800": $gray-800,
+    "gray-600": $gray-600,
+    "gray-500": $gray-500,
+    "gray-400": $gray-400,
+    "gray-300": $gray-300,
+  ),
+  $colors
+);
+
+/*
+    경로 정의
+*/
+$font-path: "./fonts";
+$icon-path: "../images/icon";
+$bg-path: "../images/bg";
+
+/*
+    font 정의
+*/
+$noto-sans: "NotoSansCJKkr";
+$lato: "lato";
+$dotum: "dotum";
